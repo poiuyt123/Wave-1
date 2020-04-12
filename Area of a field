@@ -1,0 +1,7 @@
+feet_to_acre = 43560
+length = int(input("What is the length of your field in feet?"))
+width = int(input("What is the width of your field in feet?"))
+print("Now, I will take your measurements and convert them to show you your fields area in acres")
+area = length * width
+acre_area = area / feet_to_acre
+print(f"your total area in acres is {acre_area}") 
