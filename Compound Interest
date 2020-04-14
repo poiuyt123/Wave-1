@@ -1,0 +1,8 @@
+savings = float(input("input how much money you will deposit"))
+compound_interest = 1.04
+Year_1 = round(savings * compound_interest, 2)
+Year_2 = round(Year_1 * compound_interest, 2)
+Year_3 = round(Year_2 * compound_interest, 2)
+print(f"In 1 Year, your savings would grow into ${Year_1}")
+print(f"In 2 Years, your savings would grow into ${Year_2}")
+print(f"In 3 Years, your savings would grow into ${Year_3}")
