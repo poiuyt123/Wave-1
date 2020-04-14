@@ -1,0 +1,5 @@
+r = float(input("Enter the radius of cylinder"))  
+pi = 3.14
+h = float(input("Enter the height of cylinder")) 
+area = round(pi * r * r * h, 1)  
+print (area) 
