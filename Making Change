@@ -1,0 +1,20 @@
+change = float(input("Enter your change: "))
+penny = 0.01
+nickel = 0.05
+dime = 0.10
+quarter = 0.25
+loonie = 1
+toonie = 2
+while change != 0:
+  if change == 200:
+    print("Here is a toonie")
+  elif change == 100:
+    print("Here is a loonie")
+  elif change == 25:
+    print("Here is a quarter")
+  elif change == 10:
+    print("Here is a nickel")
+  elif change == 5:
+    print("Here is a dime")
+  elif change >= 0.01:
+    print("Here are some pennies")
