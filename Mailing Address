@@ -1,0 +1,9 @@
+def mailing_address():
+  name = "Larry" 
+  city_province = "Toronto, Ontario"
+  country = "Canada"
+  print(name)
+  print(city_province)
+  print(country)
+
+mailing_address()
