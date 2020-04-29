@@ -1,0 +1,31 @@
+#Exercise 24: Units of time
+
+days = int(input("How many days?: "))
+hours = int(input("How many hours?: "))
+minutes = int(input("How many minutes?:"))
+seconds = int(input("How many seconds?: "))
+input("Now I will convert your time into seconds")
+seconds = seconds + minutes*60 + hours*3600 + days*86400
+print(seconds)
+
+#Exercise 25: Units of time(again)
+
+time = int(input("Enter the time in seconds: "))
+print("Now I will convert your time into days, hours, minutes and seconds")
+day = time // (24 * 3600)
+time = time % (24 * 3600)
+hour = time // 3600
+time %= 3600
+minutes = time // 60
+time %= 60
+seconds = time
+print("d:hh:mm:ss-> %d:%02d:%02d:%02d" % (day, hour, minutes, seconds))
+
+
+
+
+
+#Exercise 26: Current time
+import time
+t = time.asctime()
+print(t)
